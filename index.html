@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="luckyseven.js"></script>
+		<link rel="stylesheet" type="text/css" href="luckyseven.css">
+		<title>Lucky Seven</title>
+	</head>
+	
+	<body id="bg">
+		<div>
+	
+		<h1>PRICE IS RIGHT - LUCKY SEVEN</h1>
+		<div id="header">
+			<p style="text-align: center"><b>You start with $7. If you have at least $1 left at the end of this game, you win!</b></p>
+		</div>
+		
+		<div id="carPrice" style="text-align: center">
+				<ul>
+					<li><h2>$</h2></li>
+					 <li><div id="num1"><h2 id="num1text"></h2></div></li>
+					 <li><div id="num2"><h2 id="num2text"></h2></div></li>
+					 <li><h2>,</h2></li>
+					 <li><div id="num3"><h2 id="num3text"></h2></div></li>
+					 <li><div id="num4"><h2 id="num4text"></h2></div></li>
+					 <li><div id="num5"><h2 id="num5text"></h2></div></li>
+				</ul>
+		</div>
+		
+		<label for="input" style="margin-left: 25%">Enter the next digit in the price of the car here:</label>
+		<input type="number" name="input" id="input" min="0" max="9" />
+		<input type="button" id="startGame" value="START GAME" />
+		<input type="button" id="submitGuess" value="SUBMIT" />
+		<input type="button" id="resetGame" value="RESET GAME" />
+		<div id="gameplay" style="text-align: center"></div>
+	
+		</div>
+	
+	</body>
+</html>

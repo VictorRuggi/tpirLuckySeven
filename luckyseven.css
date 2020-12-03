@@ -1,0 +1,144 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Gotham";
+	font-size: 18pt;
+	color: white;
+	height: 100%;
+	width: 100%
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: cover;
+	background-image: url("set.jpg");
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 60pt;
+}
+
+li {
+	display: inline-block;
+}
+
+#num1{
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,177,1) 50%, rgba(0,0,0,1) 100%);
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+#num2{
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,177,1) 50%, rgba(0,0,0,1) 100%);
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+#num3{
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,177,1) 50%, rgba(0,0,0,1) 100%);
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+#num4{
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,177,1) 50%, rgba(0,0,0,1) 100%);
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+#num5{
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(134,0,177,1) 50%, rgba(0,0,0,1) 100%);
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+#num1text{
+	color: yellow;
+	visibility: hidden;
+	-webkit-text-stroke: 1.5px black;
+}
+
+#num2text{
+	color: yellow;
+	visibility: hidden;
+	-webkit-text-stroke: 1.5px black;
+}
+
+#num3text{
+	color: yellow;
+	visibility: hidden;
+	-webkit-text-stroke: 1.5px black;
+}
+
+#num4text{
+	color: yellow;
+	visibility: hidden;
+	-webkit-text-stroke: 1.5px black;
+}
+
+#num5text{
+	color: yellow;
+	visibility: hidden;
+	-webkit-text-stroke: 1.5px black;
+}
+
+#input {
+	height: 40px;
+	margin-top: 25px;
+	width: 150px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+#submitGuess {
+	height: 40px;
+	margin-top: 25px;
+	margin-left: 50%;
+	width: 150px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#resetGame {
+	height: 40px;
+	margin-top: 25px;
+	margin-left: 50%;
+	width: 150px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#startGame {
+	height: 40px;
+	margin-top: 25px;
+	margin-left: 50%;
+	width: 150px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#gameplay {
+	background-color: purple;
+	opacity: 80%;
+}
