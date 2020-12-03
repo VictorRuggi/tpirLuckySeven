@@ -109,7 +109,7 @@ function submitGuess(e){
 						break;
 					}
 					else {
-						document.getElementById("gameplay").innerHTML = "<p style=\"text-align: center\"><b>Game over! You ran out of dollars. The price of the car is: $" + carString.substring(0,2) + "," + carString.substring(2,5) + "</b></p>";
+						document.getElementById("gameplay").innerHTML = "<p style=\"text-align: center\"><b>Game over! You ran out of dollars. The price of the car is: $" + carString.substring(0,2) + "," + carString.substring(2,5) + ".</b></p>";
 						document.getElementById("num2text").style.visibility = "visible";
 						document.getElementById("num3text").style.visibility = "visible";
 						document.getElementById("num4text").style.visibility = "visible";
@@ -133,7 +133,7 @@ function submitGuess(e){
 						break;
 					}
 					else {
-						document.getElementById("gameplay").innerHTML = "<p style=\"text-align: center\"><b>Game over! You ran out of dollars. The price of the car is: $" + carString.substring(0,2) + "," + carString.substring(2,5) + "</b></p>";
+						document.getElementById("gameplay").innerHTML = "<p style=\"text-align: center\"><b>Game over! You ran out of dollars. The price of the car is: $" + carString.substring(0,2) + "," + carString.substring(2,5) + ".</b></p>";
 						document.getElementById("num3text").style.visibility = "visible";
 						document.getElementById("num4text").style.visibility = "visible";
 						document.getElementById("num5text").style.visibility = "visible";
@@ -156,7 +156,7 @@ function submitGuess(e){
 						break;
 					}
 					else {
-						document.getElementById("gameplay").innerHTML = "<p style=\"text-align: center\"><b>Game over! You ran out of dollars. The price of the car is: $" + carString.substring(0,2) + "," + carString.substring(2,5) + "</b></p>";
+						document.getElementById("gameplay").innerHTML = "<p style=\"text-align: center\"><b>Game over! You ran out of dollars. The price of the car is: $" + carString.substring(0,2) + "," + carString.substring(2,5) + ".</b></p>";
 						document.getElementById("num4text").style.visibility = "visible";
 						document.getElementById("num5text").style.visibility = "visible";
 						document.getElementById("submitGuess").disabled = true;
@@ -178,7 +178,7 @@ function submitGuess(e){
 						break;
 					}
 					else {
-						document.getElementById("gameplay").innerHTML = "<p style=\"text-align: center\"><b>Game over! You ran out of dollars. The price of the car is: $" + carString.substring(0,2) + "," + carString.substring(2,5) + "</b></p>";
+						document.getElementById("gameplay").innerHTML = "<p style=\"text-align: center\"><b>Game over! You ran out of dollars. The price of the car is: $" + carString.substring(0,2) + "," + carString.substring(2,5) + ".</b></p>";
 						document.getElementById("num5text").style.visibility = "visible";
 						document.getElementById("submitGuess").disabled = true;
 						break;
